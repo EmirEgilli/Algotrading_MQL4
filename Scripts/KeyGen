@@ -1,0 +1,25 @@
+//+------------------------------------------------------------------+
+//|                                                       KeyGen.mq4 |
+//|                                                           Emir E |
+//|                                                                  |
+//+------------------------------------------------------------------+
+#property copyright "Emir E"
+#property link      ""
+#property version   "1.00"
+#property strict
+//+------------------------------------------------------------------+
+//| Script program start function                                    |
+//+------------------------------------------------------------------+
+#property script_show_inputs
+ 
+#include <LicenseCheck.mqh>
+ 
+input string   InpPrivateKey  =  "";
+input string   InpAccount     =  "";
+ 
+void OnStart() {
+    
+   string   key   =  KeyGen(InpAccount, InpPrivateKey);
+   Alert("The key is " + key);
+   Print("The Key is " + key);
+}
