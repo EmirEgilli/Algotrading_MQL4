@@ -24,19 +24,19 @@ void OnStart()
       
      if(OrdersTotal() == 0 && Mode == 1)
       {
-         ticket = OrderSend(Symbol(), OP_BUY, Size, Ask, 10*10, 0, Ask+120*Point*10, NULL, 666666, 0, Blue);
+         ticket = OrderSend(Symbol(), OP_BUY, Size, Ask, 10, 0, Ask+120*Point, NULL, 666666, 0, Blue);
             if(ticket < 0)  { Alert("Error Sending Order! Error Code: ", GetLastError()); } 
 
-         ticket = OrderSend(Symbol(), OP_BUY, Size, Ask, 10*10, 0, Ask+120*Point*10, NULL, 666666, 0, Blue);
+         ticket = OrderSend(Symbol(), OP_BUY, Size, Ask, 10, 0, Ask+120*Point, NULL, 666666, 0, Blue);
             if(ticket < 0)  { Alert("Error Sending Order! Error Code: ", GetLastError()); } 
 
-         ticket = OrderSend(Symbol(), OP_BUY, Size, Ask, 10*10, 0, Ask+110*Point*10, NULL, 666666, 0, Blue);
+         ticket = OrderSend(Symbol(), OP_BUY, Size, Ask, 10, 0, Ask+110*Point, NULL, 666666, 0, Blue);
             if(ticket < 0)  { Alert("Error Sending Order! Error Code: ", GetLastError()); } 
 
-         ticket = OrderSend(Symbol(), OP_BUY, Size, Ask, 10*10, 0, Ask+110*Point*10, NULL, 666666, 0, Blue);
+         ticket = OrderSend(Symbol(), OP_BUY, Size, Ask, 10, 0, Ask+110*Point, NULL, 666666, 0, Blue);
             if(ticket < 0)  { Alert("Error Sending Order! Error Code: ", GetLastError()); } 
 
-         ticket = OrderSend(Symbol(), OP_BUY, Size, Ask, 10*10, 0, Ask+100*Point*10, NULL, 666666, 0, Blue);
+         ticket = OrderSend(Symbol(), OP_BUY, Size, Ask, 10, 0, Ask+100*Point, NULL, 666666, 0, Blue);
             if(ticket < 0)  { Alert("Error Sending Order! Error Code: ", GetLastError()); }
             
             return;
@@ -44,19 +44,19 @@ void OnStart()
       
     if(OrdersTotal() == 0 && Mode == 2)
       {                           
-         ticket = OrderSend(Symbol(), OP_SELL, Size, Bid, 10*10, 0, Bid-120*Point*10, NULL, 666666, 0, Red);
+         ticket = OrderSend(Symbol(), OP_SELL, Size, Bid, 10, 0, Bid-120*Point, NULL, 666666, 0, Red);
             if(ticket < 0)  { Alert("Error Sending Order! Error Code: ", GetLastError()); } 
             
-         ticket = OrderSend(Symbol(), OP_SELL, Size, Bid, 10*10, 0, Bid-120*Point*10, NULL, 666666, 0, Red);
+         ticket = OrderSend(Symbol(), OP_SELL, Size, Bid, 10, 0, Bid-120*Point, NULL, 666666, 0, Red);
             if(ticket < 0)  { Alert("Error Sending Order! Error Code: ", GetLastError()); }
          
-         ticket = OrderSend(Symbol(), OP_SELL, Size, Bid, 10*10, 0, Bid-110*Point*10, NULL, 666666, 0, Red);
+         ticket = OrderSend(Symbol(), OP_SELL, Size, Bid, 10, 0, Bid-110*Point, NULL, 666666, 0, Red);
             if(ticket < 0)  { Alert("Error Sending Order! Error Code: ", GetLastError()); } 
             
-         ticket = OrderSend(Symbol(), OP_SELL, Size, Bid, 10*10, 0, Bid-110*Point*10, NULL, 666666, 0, Red);
+         ticket = OrderSend(Symbol(), OP_SELL, Size, Bid, 10, 0, Bid-110*Point, NULL, 666666, 0, Red);
             if(ticket < 0)  { Alert("Error Sending Order! Error Code: ", GetLastError()); }  
             
-         ticket = OrderSend(Symbol(), OP_SELL, Size, Bid, 10*10, 0, Bid-100*Point*10, NULL, 666666, 0, Red);
+         ticket = OrderSend(Symbol(), OP_SELL, Size, Bid, 10, 0, Bid-100*Point*10, NULL, 666666, 0, Red);
             if(ticket < 0)  { Alert("Error Sending Order! Error Code: ", GetLastError()); } 
             
             return;
