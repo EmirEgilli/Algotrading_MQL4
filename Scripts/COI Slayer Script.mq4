@@ -56,7 +56,7 @@ void OnStart()
          ticket = OrderSend(Symbol(), OP_SELL, Size, Bid, 10, 0, Bid-110*Point, NULL, 666666, 0, Red);
             if(ticket < 0)  { Alert("Error Sending Order! Error Code: ", GetLastError()); }  
             
-         ticket = OrderSend(Symbol(), OP_SELL, Size, Bid, 10, 0, Bid-100*Point*10, NULL, 666666, 0, Red);
+         ticket = OrderSend(Symbol(), OP_SELL, Size, Bid, 10, 0, Bid-100*Point, NULL, 666666, 0, Red);
             if(ticket < 0)  { Alert("Error Sending Order! Error Code: ", GetLastError()); } 
             
             return;
