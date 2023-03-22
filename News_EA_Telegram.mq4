@@ -1,5 +1,5 @@
 #property copyright "Emir E"
-#property link      "xpromarkets.com"
+#property link      ""
 #property version   "1.0"
 #property description "This Expert Advisor send Telegram message for the News from the site Investing.com without using .dll"
 #property strict
