@@ -1,10 +1,10 @@
 //+------------------------------------------------------------------+
 //|                                     FX Price Action Signaler.mq4 |
 //|                                                           Emir E |
-//|                                                  xpromarkets.com |
+//|                                                                  |
 //+------------------------------------------------------------------+
 #property copyright "Emir E"
-#property link      "xpromarkets.com"
+#property link      ""
 #property version   "1.2"
 #property strict
 
