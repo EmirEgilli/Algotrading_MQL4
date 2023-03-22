@@ -1,10 +1,9 @@
 //+------------------------------------------------------------------+
 //|                                                    TrendHiLo.mqh |
 //|                                                           Emir E |
-//|                                                  xpromarkets.com |
+//|                                                                  |
 //+------------------------------------------------------------------+
 #property copyright "Emir E"
-#property link      "xpromarkets.com"
 #property version   "1.0"
 #property strict
 
