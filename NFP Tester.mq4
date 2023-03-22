@@ -1,10 +1,10 @@
 //+------------------------------------------------------------------+
 //|                                                   NFP Tester.mq4 |
 //|                                                           Emir E |
-//|                                                  xpromarkets.com |
+//|                                                                  |
 //+------------------------------------------------------------------+
 #property copyright "Emir E"
-#property link      "xpromarkets.com"
+#property link      ""
 #property version   "1.00"
 #property strict
 
