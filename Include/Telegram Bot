@@ -1,10 +1,9 @@
 //+------------------------------------------------------------------+
 //|                                                 Telegram Bot.mqh |
 //|                                                           Emir E |
-//|                                                  xpromarkets.com |
+//|                                                                  |
 //+------------------------------------------------------------------+
 #property copyright "Emir E"
-#property link      "xpromarkets.com"
 #property strict
 
 const string TelegramBotToken = "5518966063:AAHPg8sdRuHvzqbYaVzAcLeJLdbe1nXEu9k" ;
