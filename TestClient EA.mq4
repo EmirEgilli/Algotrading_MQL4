@@ -4,7 +4,7 @@
 //|                                            ellandroadcapital.com |
 //+------------------------------------------------------------------+
 #property copyright "Emir E"
-#property link      "ellandroadcapital.com"
+#property link      ""
 #property version   "1.00"
 #property strict
 
